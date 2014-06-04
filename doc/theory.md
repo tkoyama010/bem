@@ -23,6 +23,9 @@ $$\left[K^{II}\right]=\left\{\begin{array}{c}c_{5}\\c_{6}\end{array}\right\}$$
 $$\left[E^{I}\left(z_{k-1}\right)\right]=\left[a^{I}\right]\left[E^{I}\left(z_{k}\right)\right]$$
 $$\left[E^{II}\left(z_{k-1}\right)\right]=\left[a^{II}\right]\left[E^{II}\left(z_{k}\right)\right]$$
 $$f_{j}\left(r,\theta,z\right)=\dfrac{\delta\left(r\right)\delta\left(\theta\right)\delta\left(z-h\right)}{r}n_{j};j=r,\theta,z$$
+$$\Delta T_{L}=T_{L}\left(h+0\right)-T_{L}\left(h-0\right)=\dfrac{-n_{z}}{\sqrt{2\pi}};m=0$$
+$$\Delta T_{M}=T_{M}\left(h+0\right)-T_{M}\left(h-0\right)=\dfrac{\pm n_{x}+in_{y}}{2\lambda\sqrt{2\pi}};m=\pm1$$
+$$\Delta T_{N}=T_{N}\left(h+0\right)-T_{N}\left(h-0\right)=\dfrac{in_{x}\pm n_{y}}{2\lambda\sqrt{2\pi}};m=\pm1$$
 
 物理領域でのグリーン関数
 ----------------------
