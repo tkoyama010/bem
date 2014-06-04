@@ -7,6 +7,8 @@
 変換された領域内のグリーン関数
 ---------------------------
 
+$$\mathbf{L}\left(r,\theta;\lambda,m\right)=\mathbf{e}_{z}S\left(r,\theta;\lambda,m\right)$$
+
 物理領域でのグリーン関数
 ----------------------
 
