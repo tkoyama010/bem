@@ -26,6 +26,7 @@ $$f_{j}\left(r,\theta,z\right)=\dfrac{\delta\left(r\right)\delta\left(\theta\rig
 $$\Delta T_{L}=T_{L}\left(h+0\right)-T_{L}\left(h-0\right)=\dfrac{-n_{z}}{\sqrt{2\pi}};m=0$$
 $$\Delta T_{M}=T_{M}\left(h+0\right)-T_{M}\left(h-0\right)=\dfrac{\pm n_{x}+in_{y}}{2\lambda\sqrt{2\pi}};m=\pm1$$
 $$\Delta T_{N}=T_{N}\left(h+0\right)-T_{N}\left(h-0\right)=\dfrac{in_{x}\pm n_{y}}{2\lambda\sqrt{2\pi}};m=\pm1$$
+$$\left[E^{I}\left(z\right)\right]=\left[a_{k}^{I}\left(z-z_{k-1}\right)\right]\left[a_{k+1}^{I}\right]\cdots\left[a_{p-1}^{I}\right]\left[Z_{p}^{I}\left(H\right)\right]\left[K^{I}\right]$$
 
 物理領域でのグリーン関数
 ----------------------
