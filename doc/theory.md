@@ -31,7 +31,7 @@ $$\left[E^{II}\left(z\right)\right]=\left[a_{k}^{II}\left(z-z_{k-1}\right)\right
 $$\left[a_{k}^{I}\left(z_{k}-z_{k-1}\right)\right]=\left[b_{k}^{I}\left(z_{k}-z_{k-1}\right)\right]exp\left\{ \lambda\left(z_{k}-z_{k-1}\right)\right\}$$
 
 物理領域でのグリーン関数
-----------------------
+------------------------
 
 数値計算結果
 -----------
