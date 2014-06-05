@@ -34,7 +34,7 @@ $$\left[a_{k}^{II}\left(z_{k}-z_{k-1}\right)\right]=\left[b_{k}^{II}\left(z_{k}-
 物理領域でのグリーン関数
 ------------------------
 
-$$\intop_{0}^{+\infty}f\left(\lambda,z\right)J_{m}\left(\lambda r\right)d\lambda=\sum_{n=1}^{N}\int_{\lambda_{n}}^{\lambda_{n+1}}f\left(\lambda,z\right)J_{m}\left(\lambda r\right)d\lambda$$
+$$\int_{0}^{+\infty}f\left(\lambda,z\right)J_{m}\left(\lambda r\right)d\lambda=\sum_{n=1}^{N}\int_{\lambda_{n}}^{\lambda_{n+1}}f\left(\lambda,z\right)J_{m}\left(\lambda r\right)d\lambda$$
 
 数値計算結果
 -----------
