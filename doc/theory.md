@@ -29,6 +29,7 @@ $$\Delta T_{N}=T_{N}\left(h+0\right)-T_{N}\left(h-0\right)=\dfrac{in_{x}\pm n_{y
 $$\left[E^{I}\left(z\right)\right]=\left[a_{k}^{I}\left(z-z_{k-1}\right)\right]\left[a_{k+1}^{I}\right]\cdots\left[a_{p-1}^{I}\right]\left[Z_{p}^{I}\left(H\right)\right]\left[K^{I}\right]$$
 $$\left[E^{II}\left(z\right)\right]=\left[a_{k}^{II}\left(z-z_{k-1}\right)\right]\left[a_{k+1}^{II}\right]\cdots\left[a_{p-1}^{II}\right]\left[Z_{p}^{II}\left(H\right)\right]\left[K^{II}\right]$$
 $$\left[a_{k}^{I}\left(z_{k}-z_{k-1}\right)\right]=\left[b_{k}^{I}\left(z_{k}-z_{k-1}\right)\right]exp\left\{ \lambda\left(z_{k}-z_{k-1}\right)\right\}$$
+$$\left[a_{k}^{II}\left(z_{k}-z_{k-1}\right)\right]=\left[b_{k}^{II}\left(z_{k}-z_{k-1}\right)\right]exp\left\{ \lambda\left(z_{k}-z_{k-1}\right)\right\}$$
 
 物理領域でのグリーン関数
 ------------------------
