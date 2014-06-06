@@ -4,7 +4,7 @@
 概要
 ----
 
-本稿では、横方向に等方または全方向に等方の多層半無限空間の静的グリーン関数計算法を提案します。
+本稿では、水平成層または均質な半無限地盤の静的グリーン関数計算法を提案します。
 この手法では直行座標系におけるグリーン関数を導出するために円筒座標系における伝達マトリックスを使用します。
 この伝達マトリックスにおける指数関数項は、上下いずれかに行列を増やすことにより離散化します。
 それらの行列は加振点との相対的な垂直位置に依存します。
@@ -18,6 +18,7 @@
 変換された領域内のグリーン関数
 ---------------------------
 
+水平成層(または均質な)半無限地盤の上にある半無限弾性体を考えます。
 $$\mathbf{L}\left(r,\theta;\lambda,m\right)=\mathbf{e}_{z}S\left(r,\theta;\lambda,m\right)$$
 $$\mathbf{M}\left(r,\theta;\lambda,m\right)=\left(\mathbf{e}_{r}\dfrac{\partial}{\partial\mathbf{r}}+\mathbf{e}_{\theta}\dfrac{\partial}{\mathbf{r}\partial\theta}\right)S\left(r,\theta;\lambda,m\right)$$
 $$\mathbf{N}\left(r,\theta;\lambda,m\right)=\left(\mathbf{e}_{r}\dfrac{\partial}{\mathbf{r}\partial\theta}-\mathbf{e}_{\theta}\dfrac{\partial}{\partial\mathbf{r}}\right)S\left(r,\theta;\lambda,m\right)$$
