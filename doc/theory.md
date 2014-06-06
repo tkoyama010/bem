@@ -18,7 +18,12 @@
 変換された領域内のグリーン関数
 ---------------------------
 
-水平成層(または均質な)半無限地盤の上にある半無限弾性体を考えます。
+半無限地盤の上にある$p-1$層の水平成層地盤を考えます。
+最上部の層を$1$、その下の層も順番に番号を付けていき、下部領域を層$P$とします。
+座標系は地表面を原点、z軸が鉛直方向下向きの円筒座標系とします。
+$k$番目の層には$z=0,z_{p-1}$における境界条件があります。
+各層の座標系は$z=0$から$z=H$です、ただし$H$は層の厚さです。
+ベクトル関数の円筒座標系における式は次のようになります。
 $$\mathbf{L}\left(r,\theta;\lambda,m\right)=\mathbf{e}_{z}S\left(r,\theta;\lambda,m\right)$$
 $$\mathbf{M}\left(r,\theta;\lambda,m\right)=\left(\mathbf{e}_{r}\dfrac{\partial}{\partial\mathbf{r}}+\mathbf{e}_{\theta}\dfrac{\partial}{\mathbf{r}\partial\theta}\right)S\left(r,\theta;\lambda,m\right)$$
 $$\mathbf{N}\left(r,\theta;\lambda,m\right)=\left(\mathbf{e}_{r}\dfrac{\partial}{\mathbf{r}\partial\theta}-\mathbf{e}_{\theta}\dfrac{\partial}{\partial\mathbf{r}}\right)S\left(r,\theta;\lambda,m\right)$$
