@@ -52,13 +52,19 @@ $$\left[E^{I}\left(z\right)\right]=\left[Z^{I}\left(z\right)\right]\left[K^{I}\r
 
 $$\left[E^{II}\left(z\right)\right]=\left[Z^{II}\left(z\right)\right]\left[K^{II}\right]$$
 
+ここで、
+
 $$\left[E^{I}\left(z\right)\right]=\left\{\begin{array}{c}U_{L}\left(z\right)\\\lambda U_{M}\left(z\right)\\\dfrac{T_{L}\left(z\right)}{\lambda}\\T_{M}\left(z\right)\end{array}\right\}$$
 
 $$\left[E^{II}\left(z\right)\right]=\left\{\begin{array}{c}U_{N}\left(z\right)\\\dfrac{T_{N}\left(z\right)}{\lambda}\end{array}\right\}$$
 
+は膨張係数で
+
 $$\left[K^{I}\right]=\left\{\begin{array}{c}c_{1}\\c_{2}\\c_{3}\\c_{4}\end{array}\right\}$$
 
 $$\left[K^{II}\right]=\left\{\begin{array}{c}c_{5}\\c_{6}\end{array}\right\}$$
+
+は求めるべき定数です。$\left[Z^{I}\left(z\right)\right]$と$\left[Z^{I}\left(z\right)\right]$については他の文献を参照してください。
 
 $$\left[E^{I}\left(z_{k-1}\right)\right]=\left[a^{I}\right]\left[E^{I}\left(z_{k}\right)\right]$$
 
