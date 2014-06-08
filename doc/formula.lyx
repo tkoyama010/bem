@@ -88,5 +88,12 @@
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Formula $\sigma_{yz}=A_{44}\left[U_{L}\dfrac{\partial}{\partial y}+\dfrac{dU_{M}}{dz}\dfrac{\partial}{\partial y}-\dfrac{dU_{N}}{dz}\dfrac{\partial}{\partial x}\right]S\left(x,y\right)$
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
