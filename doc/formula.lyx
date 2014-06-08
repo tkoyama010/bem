@@ -74,5 +74,12 @@
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Formula $\sigma_{zz}=\left[A_{13}U_{M}\left(\dfrac{\partial^{2}}{\partial x^{2}}+\dfrac{\partial^{2}}{\partial y^{2}}\right)+A_{33}\dfrac{dU_{L}}{dz}\right]S\left(x,y\right)$
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
