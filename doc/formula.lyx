@@ -102,5 +102,12 @@
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Formula $\sigma_{xx}\left(x,y,z\right)=\int\int_{-\infty}^{+\infty}\left[\dfrac{T_{L}A_{13}}{A_{33}}-\alpha\beta\left(A_{11}-A_{12}\right)U_{N}+\left(\dfrac{\lambda^{2}A_{13}^{2}}{A_{33}}-\alpha^{2}A_{11}-\beta^{2}A_{12}\right)U_{M}\right]S\left(x,y;\alpha,\beta\right)d\alpha d\beta$
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
