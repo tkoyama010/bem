@@ -95,5 +95,12 @@
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Formula $\sigma_{xy}=A_{66}\left[2U_{M}\dfrac{\partial^{2}}{\partial x\partial y}+U_{N}\left(\dfrac{\partial^{2}}{\partial y^{2}}-\dfrac{\partial^{2}}{\partial x^{2}}\right)\right]S\left(x,y\right)$
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
