@@ -109,5 +109,19 @@
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Formula $\sigma_{xy}\left(x,y,z\right)=A_{66}\int\int_{-\infty}^{+\infty}\left[\left(\alpha^{2}-\beta^{2}\right)U_{N}-2\alpha\beta U_{M}\right]S\left(x,y;\alpha,\beta\right)d\alpha d\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\sigma_{yy}\left(x,y,z\right)=\int\int_{-\infty}^{+\infty}\left[\dfrac{T_{L}A_{13}}{A_{33}}+\alpha\beta\left(A_{11}-A_{12}\right)U_{N}+\left(\dfrac{\lambda^{2}A_{13}^{2}}{A_{33}}-\alpha^{2}A_{12}-\beta^{2}A_{11}\right)U_{M}\right]S\left(x,y;\alpha,\beta\right)d\alpha d\beta$
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
