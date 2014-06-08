@@ -1,0 +1,106 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass jarticle
+\use_default_options false
+\maintain_unincluded_children false
+\language japanese
+\language_package default
+\inputencoding default
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 0
+\use_esint 0
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index 索引
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Formula $\sigma_{xx}=\left[A_{11}\left(U_{M}\dfrac{\partial^{2}}{\partial x^{2}}+U_{N}\dfrac{\partial^{2}}{\partial x\partial y}\right)+A_{12}\left(U_{M}\dfrac{\partial^{2}}{\partial y^{2}}-U_{N}\dfrac{\partial^{2}}{\partial x\partial y}\right)+A_{13}\dfrac{dU_{L}}{dz}\right]S\left(x,y\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\sigma_{yy}=\left[A_{12}\left(U_{M}\dfrac{\partial^{2}}{\partial x^{2}}+U_{N}\dfrac{\partial^{2}}{\partial x\partial y}\right)+A_{11}\left(U_{M}\dfrac{\partial^{2}}{\partial y^{2}}-U_{N}\dfrac{\partial^{2}}{\partial x\partial y}\right)+A_{13}\dfrac{dU_{L}}{dz}\right]S\left(x,y\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\sigma_{zz}=\left[A_{13}U_{M}\left(\dfrac{\partial^{2}}{\partial x^{2}}+\dfrac{\partial^{2}}{\partial y^{2}}\right)+A_{33}\dfrac{dU_{L}}{dz}\right]S\left(x,y\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\sigma_{xz}=A_{44}\left[U_{L}\dfrac{\partial}{\partial x}+\dfrac{dU_{M}}{dz}\dfrac{\partial}{\partial x}+\dfrac{dU_{N}}{dz}\dfrac{\partial}{\partial y}\right]S\left(x,y\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\sigma_{yz}=A_{44}\left[U_{L}\dfrac{\partial}{\partial y}+\dfrac{dU_{M}}{dz}\dfrac{\partial}{\partial y}-\dfrac{dU_{N}}{dz}\dfrac{\partial}{\partial x}\right]S\left(x,y\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\sigma_{xy}=A_{66}\left[2U_{M}\dfrac{\partial^{2}}{\partial x\partial y}+U_{N}\left(\dfrac{\partial^{2}}{\partial y^{2}}-\dfrac{\partial^{2}}{\partial x^{2}}\right)\right]S\left(x,y\right)$
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
