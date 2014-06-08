@@ -81,5 +81,12 @@
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Formula $\sigma_{xz}=A_{44}\left[U_{L}\dfrac{\partial}{\partial x}+\dfrac{dU_{M}}{dz}\dfrac{\partial}{\partial x}+\dfrac{dU_{N}}{dz}\dfrac{\partial}{\partial y}\right]S\left(x,y\right)$
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
