@@ -263,5 +263,12 @@
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Formula $S\left(r,\theta;\lambda,m\right)=\dfrac{1}{\sqrt{2\pi}}J_{m}\left(\lambda r\right)e^{im\theta}$
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
