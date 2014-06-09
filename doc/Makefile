@@ -5,7 +5,12 @@ main.pdf: main.dvi
 main.dvi: main.tex theory.tex
 	platex $< 
 theory.tex: theory.md
-	pandoc -o $@ $<
+	pandoc -tlatex $< | sed "s/\\\label{.*}//g" > $@
 formula.md: formula.lyx
 	grep "begin_inset Formula.*" $< | sed "s/.begin_inset Formula//g" > $@
-
+theory.lyx: theory.tex
+	tex2lyx -e UTF8 -f $< $@
+theory.md:
+	pandoc -o $@ theory.tex
+clean:
+	rm theory.md
