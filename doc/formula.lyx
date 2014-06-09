@@ -228,5 +228,12 @@
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Formula $c'\left(x_{1}\right)=\dfrac{dc\left(x_{1}\right)}{dx_{1}}$
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
