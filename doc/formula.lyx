@@ -249,5 +249,12 @@
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Formula $\mathbf{M}\left(r,\theta;\lambda,m\right)=\left(\mathbf{e}_{r}\dfrac{\partial}{\partial\mathbf{r}}+\mathbf{e}_{\theta}\dfrac{\partial}{\mathbf{r}\partial\theta}\right)S\left(r,\theta;\lambda,m\right)$
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
