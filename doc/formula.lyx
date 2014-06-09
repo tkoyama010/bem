@@ -144,5 +144,12 @@
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Formula $Z_{22}=-d\left(x_{1}\right)exp\left(-\lambda x_{1}z\right)$
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
