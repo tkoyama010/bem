@@ -186,5 +186,12 @@
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Formula $c\left(x\right)=\dfrac{A_{11}+x^{2}A_{13}}{x^{2}\left(A_{11}A_{33}-A_{13}^{2}\right)}$
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
