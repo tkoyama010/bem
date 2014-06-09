@@ -49,12 +49,8 @@
 
 \subsection{概要}
 
-本稿では、水平成層または均質な半無限地盤の静的グリーン関数計算法を提案します。
-この手法では直行座標系におけるグリーン関数を導出するために円筒座標系における伝達マトリックスを使用します。
-この伝達マトリックスにおける指数関数項は、上下いずれかに行列を増やすことにより離散化します。
-それらの行列は加振点との相対的な垂直位置に依存します。
-次に、物理領域でのグリーン関数を級数展開したガウス求積法によって数値的に評価します。
-最後に数値計算例により、比較的少ないガウス積分点により精度の高いグリーン関数が計算できることを示します。
+本稿では、水平成層または均質な半無限地盤の静的グリーン関数計算法を提案します。この手法では直行座標系におけるグリーン関数を導出するために円筒座標系における伝達マトリックスを使用します。
+この伝達マトリックスにおける指数関数項は、上下いずれかに行列を増やすことにより離散化します。それらの行列は加振点との相対的な垂直位置に依存します。次に、物理領域でのグリーン関数を級数展開したガウス求積法によって数値的に評価します。最後に数値計算例により、比較的少ないガウス積分点により精度の高いグリーン関数が計算できることを示します。
 また、これらの例では、変位と応力場に対する成層地盤物性と異方性の効果を示します。
 
 \subsection{はじめに}
@@ -78,7 +74,7 @@ $k$番目の層には$z=0,z_{p-1}$における境界条件があります。
 
 \[S\left(r,\theta;\lambda,m\right)=\dfrac{1}{\sqrt{2\pi}}J_{m}\left(\lambda r\right)e^{im\theta}\]
 
-ここで、$J_m(\lambda r)$は$m$次のBessel関数です。
+ここで、$J_{m}(\lambda r)$は$m$次のBessel関数です。
 $m=0$は軸対称変形に対応します。
 
 上記の円筒座標系は、完全な直交空間を形成するので、任意のベクトル積分関数で表すことができます。
@@ -97,15 +93,31 @@ $m=0$は軸対称変形に対応します。
 
 ここで、
 
-\[\left[E^{I}\left(z\right)\right]=\left\{\begin{array}{c}U_{L}\left(z\right)\\\lambda U_{M}\left(z\right)\\\dfrac{T_{L}\left(z\right)}{\lambda}\\T_{M}\left(z\right)\end{array}\right\}\]
+\[\left[E^{I}\left(z\right)\right]=\left\{ \begin{array}{c}
+U_{L}\left(z\right)\\
+\lambda U_{M}\left(z\right)\\
+\dfrac{T_{L}\left(z\right)}{\lambda}\\
+T_{M}\left(z\right)
+\end{array}\right\}\]
 
-\[\left[E^{II}\left(z\right)\right]=\left\{\begin{array}{c}U_{N}\left(z\right)\\\dfrac{T_{N}\left(z\right)}{\lambda}\end{array}\right\}\]
+\[\left[E^{II}\left(z\right)\right]=\left\{ \begin{array}{c}
+U_{N}\left(z\right)\\
+\dfrac{T_{N}\left(z\right)}{\lambda}
+\end{array}\right\}\]
 
 は膨張係数で
 
-\[\left[K^{I}\right]=\left\{\begin{array}{c}c_{1}\\c_{2}\\c_{3}\\c_{4}\end{array}\right\}\]
+\[\left[K^{I}\right]=\left\{ \begin{array}{c}
+c_{1}\\
+c_{2}\\
+c_{3}\\
+c_{4}
+\end{array}\right\}\]
 
-\[\left[K^{II}\right]=\left\{\begin{array}{c}c_{5}\\c_{6}\end{array}\right\}\]
+\[\left[K^{II}\right]=\left\{ \begin{array}{c}
+c_{5}\\
+c_{6}
+\end{array}\right\}\]
 
 は求めるべき定数です。$\left[Z^{I}\left(z\right)\right]$と$\left[Z^{I}\left(z\right)\right]$については他の文献を参照してください。
 
