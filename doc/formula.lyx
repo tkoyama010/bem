@@ -179,5 +179,12 @@
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Formula $\left(A_{44}x^{2}-A_{11}\right)\left(A_{33}x^{2}-A_{44}\right)+\left(A_{13}+A_{44}\right)^{2}x^{2}=0$
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
