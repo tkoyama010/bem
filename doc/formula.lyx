@@ -214,5 +214,12 @@
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Formula $Z_{33}=\left(-\dfrac{1}{x_{1}^{2}\lambda}+\dfrac{z}{x_{1}}\right)exp\left(\lambda x_{1}z\right)$
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
