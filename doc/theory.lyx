@@ -96,6 +96,9 @@ Z軸と均質かつ横方向に等方性弾性体の対称軸を選択します�
 
 \end_inset
 
+
+\end_layout
+
 \begin_layout Subsection
 一般解と層マトリックス
 \end_layout
@@ -105,6 +108,10 @@ Z軸と均質かつ横方向に等方性弾性体の対称軸を選択します�
 \begin{eqnarray*}
 \sigma_{xx} & = & \left[A_{11}\left(U_{M}\dfrac{\partial^{2}}{\partial x^{2}}+U_{N}\dfrac{\partial^{2}}{\partial x\partial y}\right)+A_{12}\left(U_{M}\dfrac{\partial^{2}}{\partial y^{2}}-U_{N}\dfrac{\partial^{2}}{\partial x\partial y}\right)+A_{13}\dfrac{dU_{L}}{dz}\right]S\left(x,y\right)\\
 \sigma_{yy} & = & \left[A_{12}\left(U_{M}\dfrac{\partial^{2}}{\partial x^{2}}+U_{N}\dfrac{\partial^{2}}{\partial x\partial y}\right)+A_{11}\left(U_{M}\dfrac{\partial^{2}}{\partial y^{2}}-U_{N}\dfrac{\partial^{2}}{\partial x\partial y}\right)+A_{13}\dfrac{dU_{L}}{dz}\right]S\left(x,y\right)\\
+\sigma_{zz} & = & \left[A_{12}U_{M}\left(\dfrac{\partial^{2}}{\partial x^{2}}+\dfrac{\partial^{2}}{\partial y^{2}}\right)+A_{33}\dfrac{dU_{L}}{dz}\right]S\left(x,y\right)\\
+\sigma_{xz} & = & A_{44}\left[U_{L}\dfrac{\partial}{\partial x}+\dfrac{dU_{M}}{dz}\dfrac{\partial}{\partial x}+\dfrac{dU_{N}}{dz}\dfrac{\partial}{\partial y}\right]S\left(x,y\right)\\
+\sigma_{yz} & = & A_{44}\left[U_{L}\dfrac{\partial}{\partial y}+\dfrac{dU_{M}}{dz}\dfrac{\partial}{\partial y}-\dfrac{dU_{N}}{dz}\dfrac{\partial}{\partial x}\right]S\left(x,y\right)\\
+\sigma_{xy} & = & A_{66}\left[2U_{M}\dfrac{\partial^{2}}{\partial x\partial y}+U_{N}\left(\dfrac{\partial^{2}}{\partial y^{2}}-\dfrac{\partial^{2}}{\partial x^{2}}\right)\right]S\left(x,y\right)
 \end{eqnarray*}
 
 \end_inset
