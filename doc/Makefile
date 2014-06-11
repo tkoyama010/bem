@@ -1,3 +1,6 @@
+all:
+	make main.docx
+	make main.pdf
 main.docx: theory.md
 	pandoc $< -o $@
 main.pdf: main.dvi
