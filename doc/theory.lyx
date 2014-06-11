@@ -5,7 +5,7 @@
 \textclass article
 \use_default_options false
 \maintain_unincluded_children false
-\language english
+\language japanese
 \language_package none
 \inputencoding auto
 \fontencoding default
@@ -96,6 +96,27 @@
 
 \begin_layout Standard
 Z軸と均質かつ横方向に等方性弾性体の対称軸を選択します。デカルト座標での一般化されたフックの法則は、このように表すことができます。
+\begin_inset Formula 
+\begin{eqnarray*}
+\sigma_{xx} & = & A_{11}e_{xx}+A_{12}e_{yy}+A_{13}e_{zz}\\
+\sigma_{yy} & = & A_{12}e_{xx}+A_{11}e_{yy}+A_{13}e_{zz}\\
+\sigma_{zz} & = & A_{13}e_{xx}+A_{13}e_{yy}+A_{33}e_{zz}\\
+\sigma_{yz} & = & 2A_{44}e_{yz}\\
+\sigma_{xz} & = & 2A_{44}e_{xz}\\
+\sigma_{xy} & = & 2A_{66}e_{xy}
+\end{eqnarray*}
+
+\end_inset
+
+ここで、
+\begin_inset Formula 
+\[
+A_{66}=\dfrac{A_{11}-A_{12}}{2}
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
