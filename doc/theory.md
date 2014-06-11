@@ -1,7 +1,7 @@
 表面力による横方向に等方な成層半無限地盤の静的応答
 ==================================================
 
-概要
+概要 {#概要 .unnumbered}
 ----
 
 伝搬行列法は横方向に等方で成層な半無限地盤において、地表面にかかる力の変位応答を求めるために使用されます。この計算方法では異なる固有値に由来する２種類の座標系でのベクトル関数解が得られます。この計算方法は等方な成層地盤の解や横方向に等方な成層地盤の軸対称二次元変形の問題も扱うことができます。本論文の式展開を確認するために、数値計算を行います。この数値計算例から、本手法は精度の高い効率的な計算手法であることが分かります。
@@ -12,12 +12,51 @@
 基礎方程式とベクトル関数系
 --------------------------
 
+Z軸と均質かつ横方向に等方性弾性体の対称軸を選択します。デカルト座標での一般化されたフックの法則は、このように表すことができます。
+
+$$\begin{aligned}
+\sigma_{xx} & = & A_{11}e_{xx}+A_{12}e_{yy}+A_{13}e_{zz}\\
+\sigma_{yy} & = & A_{12}e_{xx}+A_{11}e_{yy}+A_{13}e_{zz}\\
+\sigma_{zz} & = & A_{13}e_{xx}+A_{13}e_{yy}+A_{33}e_{zz}\\
+\sigma_{yz} & = & 2A_{44}e_{yz}\\
+\sigma_{xz} & = & 2A_{44}e_{xz}\\
+\sigma_{xy} & = & 2A_{66}e_{xy}\end{aligned}$$
+
 一般解と層マトリックス
 ----------------------
 
 $$\begin{aligned}
 \sigma_{xx} & = & \left[A_{11}\left(U_{M}\dfrac{\partial^{2}}{\partial x^{2}}+U_{N}\dfrac{\partial^{2}}{\partial x\partial y}\right)+A_{12}\left(U_{M}\dfrac{\partial^{2}}{\partial y^{2}}-U_{N}\dfrac{\partial^{2}}{\partial x\partial y}\right)+A_{13}\dfrac{dU_{L}}{dz}\right]S\left(x,y\right)\\
-\sigma_{yy} & = & \left[A_{12}\left(U_{M}\dfrac{\partial^{2}}{\partial x^{2}}+U_{N}\dfrac{\partial^{2}}{\partial x\partial y}\right)+A_{11}\left(U_{M}\dfrac{\partial^{2}}{\partial y^{2}}-U_{N}\dfrac{\partial^{2}}{\partial x\partial y}\right)+A_{13}\dfrac{dU_{L}}{dz}\right]S\left(x,y\right)\end{aligned}$$
+\sigma_{yy} & = & \left[A_{12}\left(U_{M}\dfrac{\partial^{2}}{\partial x^{2}}+U_{N}\dfrac{\partial^{2}}{\partial x\partial y}\right)+A_{11}\left(U_{M}\dfrac{\partial^{2}}{\partial y^{2}}-U_{N}\dfrac{\partial^{2}}{\partial x\partial y}\right)+A_{13}\dfrac{dU_{L}}{dz}\right]S\left(x,y\right)\\
+\sigma_{zz} & = & \left[A_{12}U_{M}\left(\dfrac{\partial^{2}}{\partial x^{2}}+\dfrac{\partial^{2}}{\partial y^{2}}\right)+A_{33}\dfrac{dU_{L}}{dz}\right]S\left(x,y\right)\\
+\sigma_{xz} & = & A_{44}\left[U_{L}\dfrac{\partial}{\partial x}+\dfrac{dU_{M}}{dz}\dfrac{\partial}{\partial x}+\dfrac{dU_{N}}{dz}\dfrac{\partial}{\partial y}\right]S\left(x,y\right)\\
+\sigma_{yz} & = & A_{44}\left[U_{L}\dfrac{\partial}{\partial y}+\dfrac{dU_{M}}{dz}\dfrac{\partial}{\partial y}-\dfrac{dU_{N}}{dz}\dfrac{\partial}{\partial x}\right]S\left(x,y\right)\\
+\sigma_{xy} & = & A_{66}\left[2U_{M}\dfrac{\partial^{2}}{\partial x\partial y}+U_{N}\left(\dfrac{\partial^{2}}{\partial y^{2}}-\dfrac{\partial^{2}}{\partial x^{2}}\right)\right]S\left(x,y\right)\end{aligned}$$
+
+ここで、 $$A_{66}=\dfrac{A_{11}-A_{12}}{2}$$
+
+$$\begin{aligned}
+\dfrac{dU_{L}}{dz} & = & \lambda^{2}U_{M}\dfrac{A_{13}}{A_{33}}+\dfrac{T_{L}}{A_{33}}\\
+\dfrac{dU_{M}}{dz} & = & -U_{L}+\dfrac{T_{M}}{A_{44}}\\
+\dfrac{dT_{L}}{dz} & = & \lambda^{2}T_{M}\\
+\dfrac{dT_{M}}{dz} & = & \lambda^{2}U_{M}\dfrac{A_{11}A_{33}-A_{13}^{2}}{A_{33}}-\dfrac{A_{13}T_{L}}{A_{33}}\end{aligned}$$
+
+$$\left[\begin{array}{c}
+\dfrac{dU_{N}}{dz}\\
+\dfrac{dT_{N}}{dz}
+\end{array}\right]=\left[\begin{array}{cc}
+0 & \dfrac{1}{A_{44}}\\
+\lambda^{2}A_{66} & 0
+\end{array}\right]\left[\begin{array}{c}
+U_{N}\\
+T_{N}
+\end{array}\right]$$
+
+一般解と層マトリックス
+----------------------
+
+地表面荷重による成層弾性体の変位
+--------------------------------
 
 変位入力による横方向に等方な成層半無限地盤の静的応答
 ====================================================
@@ -75,7 +114,9 @@ $$\begin{aligned}
 半無限地盤の上にある$p-1$層の水平成層地盤を考えます。最上部の層を$1$、その下の層も順番に番号を付けていき、下部領域を層$P$とします。座標系は地表面を原点、z軸が鉛直方向下向きの円筒座標系とします。$k$番目の層には$z=0,z_{p-1}$における境界条件があります。各層の座標系は$z=0$から$z=H$です、ただし$H$は層の厚さです。
 ベクトル関数の円筒座標系における式は次のようになります。
 $$\mathbf{L}\left(r,\theta;\lambda,m\right)=\mathbf{e}_{z}S\left(r,\theta;\lambda,m\right)$$
+
 $$\mathbf{M}\left(r,\theta;\lambda,m\right)=\left(\mathbf{e}_{r}\dfrac{\partial}{\partial\mathbf{r}}+\mathbf{e}_{\theta}\dfrac{\partial}{\mathbf{r}\partial\theta}\right)S\left(r,\theta;\lambda,m\right)$$
+
 $$\mathbf{N}\left(r,\theta;\lambda,m\right)=\left(\mathbf{e}_{r}\dfrac{\partial}{\mathbf{r}\partial\theta}-\mathbf{e}_{\theta}\dfrac{\partial}{\partial\mathbf{r}}\right)S\left(r,\theta;\lambda,m\right)$$
 ただし、
 $$S\left(r,\theta;\lambda,m\right)=\dfrac{1}{\sqrt{2\pi}}J_{m}\left(\lambda r\right)e^{im\theta}$$
@@ -147,6 +188,7 @@ $$\left[a_{k}^{II}\left(z_{k}-z_{k-1}\right)\right]=\left[b_{k}^{II}\left(z_{k}-
 物理領域でのグリーン関数
 ------------------------
 
+本論文では、Pattersonにより開発され、ChaveによりFORTRANプログラムに実装されたハンケル変換のガウス積分プログラムを、成層半無限地盤におけるグリーン関数の計算のために修正した。
 $$\int_{0}^{+\infty}f\left(\lambda,z\right)J_{m}\left(\lambda r\right)d\lambda=\sum_{n=1}^{N}\int_{\lambda_{n}}^{\lambda_{n+1}}f\left(\lambda,z\right)J_{m}\left(\lambda r\right)d\lambda$$
 
 数値計算結果
