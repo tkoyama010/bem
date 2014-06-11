@@ -159,6 +159,19 @@ T_{N}
 地表面荷重による成層弾性体の変位
 \end_layout
 
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+\sigma_{rr}\left(r,\theta,z\right) & = & \sum_{m}\int_{0}^{+\infty}\left[T_{L}\dfrac{A_{13}}{A_{33}}+U_{N}\left(A_{11}-A_{12}\right)\Delta_{1}+U_{M}\lambda^{2}\dfrac{A_{13}^{2}-A_{11}A_{33}}{A_{33}}-U_{M}\left(A_{11}-A_{12}\right)\Delta_{2}\right]S\left(r,\theta;\lambda,m\right)\lambda d\lambda\\
+\sigma_{r\theta}\left(r,\theta,z\right) & = & A_{66}\sum_{m}\int_{0}^{+\infty}\left[U_{N}\left(\lambda^{2}+2\Delta_{2}\right)+2U_{M}\Delta_{1}\right]S\left(r,\theta;\lambda,m\right)\lambda d\lambda\\
+\sigma_{\theta\theta}\left(r,\theta,z\right) & = & \sum_{m}\int_{0}^{+\infty}\left[T_{L}\dfrac{A_{13}}{A_{33}}-U_{N}\left(A_{11}-A_{12}\right)\Delta_{1}+U_{M}\lambda^{2}\dfrac{A_{13}^{2}-A_{12}A_{33}}{A_{33}}+U_{M}\left(A_{11}-A_{12}\right)\Delta_{2}\right]S\left(r,\theta;\lambda,m\right)\lambda d\lambda
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 変位入力による横方向に等方な成層半無限地盤の静的応答
 \end_layout
