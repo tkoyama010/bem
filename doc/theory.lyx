@@ -557,6 +557,8 @@ f_{j}\left(r,\theta,z\right)=\dfrac{\delta\left(r\right)\delta\left(\theta\right
 \end_layout
 
 \begin_layout Standard
+本論文では、Pattersonにより開発され、ChaveによりFORTRANプログラムに実装されたハンケル変換のガウス積分プログラムを、成層半無限地盤におけるグ
+リーン関数の計算のために修正した。
 \begin_inset Formula 
 \[
 \int_{0}^{+\infty}f\left(\lambda,z\right)J_{m}\left(\lambda r\right)d\lambda=\sum_{n=1}^{N}\int_{\lambda_{n}}^{\lambda_{n+1}}f\left(\lambda,z\right)J_{m}\left(\lambda r\right)d\lambda
