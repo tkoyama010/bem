@@ -170,6 +170,15 @@ T_{N}
 \end_inset
 
 
+\begin_inset Formula 
+\begin{eqnarray*}
+\Delta_{1} & = & \dfrac{1}{r}\dfrac{\partial^{2}}{\partial r\partial\theta}-\dfrac{1}{r^{2}}\dfrac{\partial}{\partial\theta}\\
+\Delta_{2} & = & \dfrac{1}{r^{2}}\dfrac{\partial^{2}}{\partial\theta^{2}}+\dfrac{1}{r}\dfrac{\partial}{\partial r}
+\end{eqnarray*}
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
