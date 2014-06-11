@@ -5,7 +5,7 @@
 \textclass article
 \use_default_options false
 \maintain_unincluded_children false
-\language japanese-cjk
+\language japanese
 \language_package none
 \inputencoding auto
 \fontencoding default
@@ -64,7 +64,7 @@
 表面力による横方向に等方な成層半無限地盤の静的応答
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsection*
 概要
 \end_layout
 
@@ -82,6 +82,20 @@
 基礎方程式とベクトル関数系
 \end_layout
 
+\begin_layout Standard
+Z軸と均質かつ横方向に等方性弾性体の対称軸を選択します。デカルト座標での一般化されたフックの法則は、このように表すことができます。
+\begin_inset Formula 
+\begin{eqnarray*}
+\sigma_{xx} & = & A_{11}e_{xx}+A_{12}e_{yy}+A_{13}e_{zz}\\
+\sigma_{yy} & = & A_{12}e_{xx}+A_{11}e_{yy}+A_{13}e_{zz}\\
+\sigma_{zz} & = & A_{13}e_{xx}+A_{13}e_{yy}+A_{33}e_{zz}\\
+\sigma_{yz} & = & 2A_{44}e_{yz}\\
+\sigma_{xz} & = & 2A_{44}e_{xz}\\
+\sigma_{xy} & = & 2A_{66}e_{xy}
+\end{eqnarray*}
+
+\end_inset
+
 \begin_layout Subsection
 一般解と層マトリックス
 \end_layout
@@ -95,7 +109,23 @@
 
 \end_inset
 
+ここで、
+\begin_inset Formula 
+\[
+A_{66}=\dfrac{A_{11}-A_{12}}{2}
+\]
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+一般解と層マトリックス
+\end_layout
+
+\begin_layout Subsection
+地表面荷重による成層弾性体の変位
 \end_layout
 
 \begin_layout Section
@@ -223,6 +253,9 @@
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
 \begin_inset Formula 
 \[
 \mathbf{M}\left(r,\theta;\lambda,m\right)=\left(\mathbf{e}_{r}\dfrac{\partial}{\partial\mathbf{r}}+\mathbf{e}_{\theta}\dfrac{\partial}{\mathbf{r}\partial\theta}\right)S\left(r,\theta;\lambda,m\right)
@@ -231,6 +264,9 @@
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
 \begin_inset Formula 
 \[
 \mathbf{N}\left(r,\theta;\lambda,m\right)=\left(\mathbf{e}_{r}\dfrac{\partial}{\mathbf{r}\partial\theta}-\mathbf{e}_{\theta}\dfrac{\partial}{\partial\mathbf{r}}\right)S\left(r,\theta;\lambda,m\right)
@@ -505,6 +541,8 @@ f_{j}\left(r,\theta,z\right)=\dfrac{\delta\left(r\right)\delta\left(\theta\right
 \end_layout
 
 \begin_layout Standard
+本論文では、Pattersonにより開発され、ChaveによりFORTRANプログラムに実装されたハンケル変換のガウス積分プログラムを、成層半無限地盤におけるグ
+リーン関数の計算のために修正した。
 \begin_inset Formula 
 \[
 \int_{0}^{+\infty}f\left(\lambda,z\right)J_{m}\left(\lambda r\right)d\lambda=\sum_{n=1}^{N}\int_{\lambda_{n}}^{\lambda_{n+1}}f\left(\lambda,z\right)J_{m}\left(\lambda r\right)d\lambda
