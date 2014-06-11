@@ -123,6 +123,10 @@ A_{66}=\dfrac{A_{11}-A_{12}}{2}
 一般解と層マトリックス
 \end_layout
 
+\begin_layout Subsection
+地表面荷重による成層弾性体の変位
+\end_layout
+
 \begin_layout Section
 変位入力による横方向に等方な成層半無限地盤の静的応答
 \end_layout
