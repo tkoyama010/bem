@@ -125,6 +125,34 @@ A_{66}=\dfrac{A_{11}-A_{12}}{2}
 \end_inset
 
 
+\begin_inset Formula 
+\begin{eqnarray*}
+\dfrac{dU_{L}}{dz} & = & \lambda^{2}U_{M}\dfrac{A_{13}}{A_{33}}+\dfrac{T_{L}}{A_{33}}\\
+\dfrac{dU_{M}}{dz} & = & -U_{L}+\dfrac{T_{M}}{A_{44}}\\
+\dfrac{dT_{L}}{dz} & = & \lambda^{2}T_{M}\\
+\dfrac{dT_{M}}{dz} & = & \lambda^{2}U_{M}\dfrac{A_{11}A_{33}-A_{13}^{2}}{A_{33}}-\dfrac{A_{13}T_{L}}{A_{33}}
+\end{eqnarray*}
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\left[\begin{array}{c}
+\dfrac{dU_{N}}{dz}\\
+\dfrac{dT_{N}}{dz}
+\end{array}\right]=\left[\begin{array}{cc}
+0 & \dfrac{1}{A_{44}}\\
+\lambda^{2}A_{66} & 0
+\end{array}\right]\left[\begin{array}{c}
+U_{N}\\
+T_{N}
+\end{array}\right]
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
