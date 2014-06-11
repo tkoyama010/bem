@@ -15,6 +15,10 @@
 一般解と層マトリックス
 ----------------------
 
+$$\begin{aligned}
+\sigma_{xx} & = & \left[A_{11}\left(U_{M}\dfrac{\partial^{2}}{\partial x^{2}}+U_{N}\dfrac{\partial^{2}}{\partial x\partial y}\right)+A_{12}\left(U_{M}\dfrac{\partial^{2}}{\partial y^{2}}-U_{N}\dfrac{\partial^{2}}{\partial x\partial y}\right)+A_{13}\dfrac{dU_{L}}{dz}\right]S\left(x,y\right)\\
+\sigma_{yy} & = & \left[A_{12}\left(U_{M}\dfrac{\partial^{2}}{\partial x^{2}}+U_{N}\dfrac{\partial^{2}}{\partial x\partial y}\right)+A_{11}\left(U_{M}\dfrac{\partial^{2}}{\partial y^{2}}-U_{N}\dfrac{\partial^{2}}{\partial x\partial y}\right)+A_{13}\dfrac{dU_{L}}{dz}\right]S\left(x,y\right)\end{aligned}$$
+
 変位入力による横方向に等方な成層半無限地盤の静的応答
 ====================================================
 
