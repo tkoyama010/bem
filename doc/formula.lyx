@@ -103,7 +103,196 @@
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\sigma$
+\begin_inset Formula $\sigma_{xx}\left(x,y,z\right)=\int\int_{-\infty}^{+\infty}\left[\dfrac{T_{L}A_{13}}{A_{33}}-\alpha\beta\left(A_{11}-A_{12}\right)U_{N}+\left(\dfrac{\lambda^{2}A_{13}^{2}}{A_{33}}-\alpha^{2}A_{11}-\beta^{2}A_{12}\right)U_{M}\right]S\left(x,y;\alpha,\beta\right)d\alpha d\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\sigma_{xy}\left(x,y,z\right)=A_{66}\int\int_{-\infty}^{+\infty}\left[\left(\alpha^{2}-\beta^{2}\right)U_{N}-2\alpha\beta U_{M}\right]S\left(x,y;\alpha,\beta\right)d\alpha d\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\sigma_{yy}\left(x,y,z\right)=\int\int_{-\infty}^{+\infty}\left[\dfrac{T_{L}A_{13}}{A_{33}}+\alpha\beta\left(A_{11}-A_{12}\right)U_{N}+\left(\dfrac{\lambda^{2}A_{13}^{2}}{A_{33}}-\alpha^{2}A_{12}-\beta^{2}A_{11}\right)U_{M}\right]S\left(x,y;\alpha,\beta\right)d\alpha d\beta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Z_{11}=c\left(x_{1}\right)exp\left(\lambda x_{1}z\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Z_{12}=c\left(x_{1}\right)exp\left(-\lambda x_{1}z\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Z_{21}=d\left(x_{1}\right)exp\left(\lambda x_{1}z\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Z_{22}=-d\left(x_{1}\right)exp\left(-\lambda x_{1}z\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Z_{31}=x_{1}^{-1}exp\left(\lambda x_{1}z\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Z_{32}=-x_{1}^{-1}exp\left(-\lambda x_{1}z\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Z_{41}=exp\left(\lambda x_{1}z\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Z_{42}=exp\left(-\lambda x_{1}z\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(A_{44}x^{2}-A_{11}\right)\left(A_{33}x^{2}-A_{44}\right)+\left(A_{13}+A_{44}\right)^{2}x^{2}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c\left(x\right)=\dfrac{A_{11}+x^{2}A_{13}}{x^{2}\left(A_{11}A_{33}-A_{13}^{2}\right)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $d\left(x\right)=\dfrac{A_{13}+x^{2}A_{33}}{x\left(A_{11}A_{33}-A_{13}^{2}\right)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Z_{13}=\left[\dfrac{c'\left(x_{1}\right)}{\lambda}+c\left(x_{1}\right)z\right]exp\left(\lambda x_{1}z\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Z_{23}=\left[\dfrac{d'\left(x_{1}\right)}{\lambda}+d\left(x_{1}\right)z\right]exp\left(\lambda x_{1}z\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Z_{33}=\left(-\dfrac{1}{x_{1}^{2}\lambda}+\dfrac{z}{x_{1}}\right)exp\left(\lambda x_{1}z\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Z_{43}=zexp\left(\lambda x_{1}z\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c'\left(x_{1}\right)=\dfrac{dc\left(x_{1}\right)}{dx_{1}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $d'\left(x_{1}\right)=\dfrac{dd\left(x_{1}\right)}{dx_{1}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\mathbf{L}\left(r,\theta;\lambda,m\right)=\mathbf{e}_{z}S\left(r,\theta;\lambda,m\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\mathbf{M}\left(r,\theta;\lambda,m\right)=\left(\mathbf{e}_{r}\dfrac{\partial}{\partial\mathbf{r}}+\mathbf{e}_{\theta}\dfrac{\partial}{\mathbf{r}\partial\theta}\right)S\left(r,\theta;\lambda,m\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\mathbf{N}\left(r,\theta;\lambda,m\right)=\left(\mathbf{e}_{r}\dfrac{\partial}{\mathbf{r}\partial\theta}-\mathbf{e}_{\theta}\dfrac{\partial}{\partial\mathbf{r}}\right)S\left(r,\theta;\lambda,m\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $S\left(r,\theta;\lambda,m\right)=\dfrac{1}{\sqrt{2\pi}}J_{m}\left(\lambda r\right)e^{im\theta}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\mathbf{u}\left(r,\theta,z\right)=\sum_{m}\int_{0}^{+\infty}\left[U_{L}\left(z\right)\mathbf{L}\left(r,\theta\right)+U_{M}\left(z\right)\mathbf{M}\left(r,\theta\right)+U_{N}\left(z\right)\mathbf{N}\left(r,\theta\right)\right]\lambda d\lambda$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\mathbf{T}\left(r,\theta,z\right)=\sigma_{rz}\mathbf{e}_{r}+\sigma_{\theta z}\mathbf{e}_{\theta}+\sigma_{zz}\mathbf{e}_{z}=\sum_{m}\int_{0}^{+\infty}\left[T_{L}\left(z\right)\mathbf{L}\left(r,\theta\right)+T_{M}\left(z\right)\mathbf{M}\left(r,\theta\right)+T_{N}\left(z\right)\mathbf{N}\left(r,\theta\right)\right]\lambda d\lambda$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left[E^{I}\left(z\right)\right]=\left[Z^{I}\left(z\right)\right]\left[K^{I}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left[E^{II}\left(z\right)\right]=\left[Z^{II}\left(z\right)\right]\left[K^{II}\right]$
 \end_inset
 
 
