@@ -176,7 +176,11 @@ a_{k}^{L}\end{array}\end{bmatrix}=\begin{bmatrix}\cosh\left(\lambda s_{k}h_{k}\r
 
 \end_inset
 
+は層
+\begin_inset Formula $k$
+\end_inset
 
+の層マトリックスもしくは、伝搬マトリックスといいます。
 \end_layout
 
 \begin_layout Subsection
