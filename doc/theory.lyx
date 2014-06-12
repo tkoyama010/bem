@@ -157,7 +157,7 @@ T_{N}
 \left[\begin{array}{c}
 U_{N}\left(z_{k-1}\right)\\
 \dfrac{T_{N}\left(z_{k-1}\right)}{\lambda}
-\end{array}\right]=\left[{\bf a}_{k}^{L}\right]\left[\begin{array}{c}
+\end{array}\right]=\left[a_{k}^{L}\right]\left[\begin{array}{c}
 U_{N}\left(z\right)\\
 \dfrac{T_{N}\left(z\right)}{\lambda}
 \end{array}\right]
@@ -169,7 +169,7 @@ U_{N}\left(z\right)\\
 \begin_inset Formula 
 \[
 \begin{bmatrix}\begin{array}{l}
-{\bf a}_{k}^{L}\end{array}\end{bmatrix}=\begin{bmatrix}\cosh\left(\lambda s_{k}h_{k}\right) & -\dfrac{\sinh\left(\lambda s_{k}h_{k}\right)}{\bar{s_{k}}}\\
+a_{k}^{L}\end{array}\end{bmatrix}=\begin{bmatrix}\cosh\left(\lambda s_{k}h_{k}\right) & -\dfrac{\sinh\left(\lambda s_{k}h_{k}\right)}{\bar{s_{k}}}\\
 -\bar{s}_{k}\sinh\left(\lambda s_{k}h_{k}\right) & \cosh\left(\lambda s_{k}h_{k}\right)
 \end{bmatrix}
 \]
