@@ -18,6 +18,7 @@
 \font_osf false
 \font_sf_scale 100
 \font_tt_scale 100
+
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -123,7 +124,7 @@ A_{66}=\dfrac{A_{11}-A_{12}}{2}
 
 \end_inset
 
-
+タイプⅠに対しては、
 \begin_inset Formula 
 \begin{eqnarray*}
 \dfrac{dU_{L}}{dz} & = & \lambda^{2}U_{M}\dfrac{A_{13}}{A_{33}}+\dfrac{T_{L}}{A_{33}}\\
@@ -134,7 +135,7 @@ A_{66}=\dfrac{A_{11}-A_{12}}{2}
 
 \end_inset
 
-
+そしてタイプⅡに対しては、
 \begin_inset Formula 
 \[
 \left[\begin{array}{c}
@@ -148,6 +149,53 @@ U_{N}\\
 T_{N}
 \end{array}\right]
 \]
+
+\end_inset
+
+が成り立つ。タイプⅡの一般解は次式となる。
+\begin_inset Formula 
+\[
+\begin{bmatrix}U_{N}\\
+T_{N}
+\end{bmatrix}=\begin{bmatrix}Z^{L}\end{bmatrix}\begin{bmatrix}A^{L}\\
+B^{L}
+\end{bmatrix}
+\]
+
+\end_inset
+
+ここで
+\begin_inset Formula $A^{L}$
+\end_inset
+
+と
+\begin_inset Formula $B^{L}$
+\end_inset
+
+は
+\begin_inset Formula $\lambda$
+\end_inset
+
+の任意関数であり、
+\begin_inset Formula $\begin{bmatrix}Z^{L}\end{bmatrix}$
+\end_inset
+
+は次式となる。
+\begin_inset Formula 
+\[
+\begin{bmatrix}Z^{L}\end{bmatrix}=\begin{bmatrix}\exp\left(\lambda sz\right) & \exp\left(-\lambda sz\right)\\
+\lambda\bar{s}\exp\left(\lambda sz\right) & -\lambda\bar{s}\exp\left(-\lambda sz\right)
+\end{bmatrix}
+\]
+
+\end_inset
+
+ただし、
+\begin_inset Formula 
+\begin{eqnarray*}
+s & = & \sqrt{\dfrac{A_{66}}{A_{44}}}\\
+\bar{s} & = & sA_{44}=\sqrt{A_{44}A_{66}}
+\end{eqnarray*}
 
 \end_inset
 
