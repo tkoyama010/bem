@@ -229,6 +229,42 @@ a_{k}^{L}\end{array}\end{bmatrix}=\begin{bmatrix}\cosh\left(\lambda s_{k}h_{k}\r
 \end_inset
 
 の層マトリックスもしくは、伝搬マトリックスといいます。
+\begin_inset Formula 
+\[
+\begin{bmatrix}E\left(z\right)\end{bmatrix}=\begin{bmatrix}Z\left(z\right)\end{bmatrix}\begin{bmatrix}K\end{bmatrix}
+\]
+
+\end_inset
+
+上式において
+\begin_inset Formula $\begin{bmatrix}E\left(z\right)\end{bmatrix}$
+\end_inset
+
+は次のように定義される。
+\begin_inset Formula 
+\[
+\left[E\left(z\right)\right]=\begin{bmatrix}U_{L}\left(z\right)\\
+\lambda U_{M}\left(z\right)\\
+\dfrac{T_{L}\left(z\right)}{\lambda}\\
+T_{M}\left(z\right)
+\end{bmatrix}
+\]
+
+\end_inset
+
+そして、
+\begin_inset Formula 
+\[
+\begin{bmatrix}K\end{bmatrix}=\begin{bmatrix}A\\
+B\\
+C\\
+D
+\end{bmatrix}
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
