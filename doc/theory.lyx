@@ -427,6 +427,10 @@ D
 概要
 \end_layout
 
+\begin_layout Standard
+地中断層に起因する成層地盤の任意点における表面変位の計算方法の定式化を行います。
+\end_layout
+
 \begin_layout Section
 成層地盤における静的なグリーン関数
 \end_layout
