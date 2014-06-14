@@ -816,7 +816,15 @@ f_{j}\left(r,\theta,z\right)=\dfrac{\delta\left(r\right)\delta\left(\theta\right
 \begin_inset Formula $\exp\left\{ -\lambda\left(H-h\right)\right\} $
 \end_inset
 
-により打ち消されます。
+により打ち消されます。そのため、これらの新しい伝搬行列を用いることにより、伝搬マトリックスは次式のように表せます。
+\begin_inset Formula 
+\[
+\begin{bmatrix}E^{I}\left(z\right)\end{bmatrix}=\exp\left\{ -\lambda d_{zh}\right\} \left[b_{k}^{I}\left(z-z_{k-1}\right)\right]\left[b^{I}\right]
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
