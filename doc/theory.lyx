@@ -299,6 +299,30 @@ D
 の要素は付録を参照してください。
 \end_layout
 
+\begin_layout Standard
+この式から、伝搬関係の式が得られます。
+\begin_inset Formula 
+\[
+\begin{bmatrix}E\left(z_{k-1}\right)\end{bmatrix}=\begin{bmatrix}a_{K}\end{bmatrix}\begin{bmatrix}E\left(z_{k}\right)\end{bmatrix}
+\]
+
+\end_inset
+
+ここで、
+\begin_inset Formula $\begin{bmatrix}a_{k}\end{bmatrix}$
+\end_inset
+
+は第
+\begin_inset Formula $k$
+\end_inset
+
+層の伝搬マトリックスです。要素については付録を参照してください。付録から分かるように、固有値が
+\begin_inset Formula $1.0$
+\end_inset
+
+であるとき、この伝搬行列は等方性の成層地盤の伝搬行列になります。
+\end_layout
+
 \begin_layout Subsection
 地表面荷重による成層弾性体の変位
 \end_layout
