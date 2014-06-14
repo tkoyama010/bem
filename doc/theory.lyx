@@ -272,7 +272,31 @@ D
 
 \end_inset
 
+ここで、
+\begin_inset Formula $A$
+\end_inset
 
+、
+\begin_inset Formula $B$
+\end_inset
+
+、
+\begin_inset Formula $C$
+\end_inset
+
+そして
+\begin_inset Formula $D$
+\end_inset
+
+は
+\begin_inset Formula $\lambda$
+\end_inset
+
+の任意関数です。行列
+\begin_inset Formula $\begin{bmatrix}K\end{bmatrix}$
+\end_inset
+
+の要素は付録を参照してください。
 \end_layout
 
 \begin_layout Subsection
