@@ -658,6 +658,11 @@ c_{6}
 \end_layout
 
 \begin_layout Standard
+均質地盤の式であるこの式を用いて次の伝搬関係の式を導出できます。次式は層
+\begin_inset Formula $k$
+\end_inset
+
+の上端と下端の伝搬関係を示したものです。
 \begin_inset Formula 
 \[
 \left[E^{I}\left(z_{k-1}\right)\right]=\left[a^{I}\right]\left[E^{I}\left(z_{k}\right)\right]
@@ -666,9 +671,6 @@ c_{6}
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
 \begin_inset Formula 
 \[
 \left[E^{II}\left(z_{k-1}\right)\right]=\left[a^{II}\right]\left[E^{II}\left(z_{k}\right)\right]
@@ -676,10 +678,27 @@ c_{6}
 
 \end_inset
 
+ここで
+\begin_inset Formula $z_{k-1}$
+\end_inset
 
+と
+\begin_inset Formula $z_{k}$
+\end_inset
+
+はそれぞれ層
+\begin_inset Formula $k$
+\end_inset
+
+の上端と下端の深さです。
 \end_layout
 
 \begin_layout Standard
+さて、座標
+\begin_inset Formula $\left(r,\theta,z\right)=\left(0,0,h\right)$
+\end_inset
+
+に力を加えた時の状態を式で表現します。
 \begin_inset Formula 
 \[
 f_{j}\left(r,\theta,z\right)=\dfrac{\delta\left(r\right)\delta\left(\theta\right)\delta\left(z-h\right)}{r}n_{j};j=r,\theta,z
@@ -687,10 +706,11 @@ f_{j}\left(r,\theta,z\right)=\dfrac{\delta\left(r\right)\delta\left(\theta\right
 
 \end_inset
 
+ここで、
+\begin_inset Formula $\left(n_{r},n_{\theta},n_{z}\right)$
+\end_inset
 
-\end_layout
-
-\begin_layout Standard
+は円筒座標系における方向余弦です。この加力により次のような不連続な牽引ベクトルが発生します。
 \begin_inset Formula 
 \[
 \Delta T_{L}=T_{L}\left(h+0\right)-T_{L}\left(h-0\right)=\dfrac{-n_{z}}{\sqrt{2\pi}};m=0
@@ -699,9 +719,6 @@ f_{j}\left(r,\theta,z\right)=\dfrac{\delta\left(r\right)\delta\left(\theta\right
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
 \begin_inset Formula 
 \[
 \Delta T_{M}=T_{M}\left(h+0\right)-T_{M}\left(h-0\right)=\dfrac{\pm n_{x}+in_{y}}{2\lambda\sqrt{2\pi}};m=\pm1
@@ -710,9 +727,6 @@ f_{j}\left(r,\theta,z\right)=\dfrac{\delta\left(r\right)\delta\left(\theta\right
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
 \begin_inset Formula 
 \[
 \Delta T_{N}=T_{N}\left(h+0\right)-T_{N}\left(h-0\right)=\dfrac{in_{x}\pm n_{y}}{2\lambda\sqrt{2\pi}};m=\pm1
