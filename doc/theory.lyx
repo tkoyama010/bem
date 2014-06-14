@@ -772,6 +772,15 @@ f_{j}\left(r,\theta,z\right)=\dfrac{\delta\left(r\right)\delta\left(\theta\right
 \end_layout
 
 \begin_layout Standard
+この問題を解決するために、新たな伝搬行列
+\begin_inset Formula $\left[b_{k}^{I}\right]$
+\end_inset
+
+と
+\begin_inset Formula $\left[b_{k}^{II}\right]$
+\end_inset
+
+を導入します。
 \begin_inset Formula 
 \[
 \left[a_{k}^{I}\left(z_{k}-z_{k-1}\right)\right]=\left[b_{k}^{I}\left(z_{k}-z_{k-1}\right)\right]exp\left\{ \lambda\left(z_{k}-z_{k-1}\right)\right\} 
