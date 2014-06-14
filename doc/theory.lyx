@@ -799,7 +799,24 @@ f_{j}\left(r,\theta,z\right)=\dfrac{\delta\left(r\right)\delta\left(\theta\right
 
 \end_inset
 
+ここで、
+\begin_inset Formula $\lambda$
+\end_inset
 
+は円筒座標系のベクトル関数において導入されたパラメータです。新しい伝搬行列ではどの要素も指数関数的に増えないため、層の数をどれほど増やしてもオーバーフローを起こ
+すことはありません。この式における右辺の指数関数項は
+\begin_inset Formula $\begin{bmatrix}K^{I}\end{bmatrix}$
+\end_inset
+
+と
+\begin_inset Formula $\begin{bmatrix}K^{I\hspace{-0.1em}I}\end{bmatrix}$
+\end_inset
+
+の
+\begin_inset Formula $\exp\left\{ -\lambda\left(H-h\right)\right\} $
+\end_inset
+
+により打ち消されます。
 \end_layout
 
 \begin_layout Subsection
