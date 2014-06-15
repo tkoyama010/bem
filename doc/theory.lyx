@@ -104,7 +104,25 @@ A_{66}=\dfrac{A_{11}-A_{12}}{2}
 
 \end_inset
 
+さらに各係数は以下のように表されます。
+\begin_inset Formula 
+\begin{eqnarray*}
+A_{11} & = & A_{33}=\dfrac{E\left(1-\nu\right)}{\left(1+\nu\right)\left(1-2\nu\right)}\\
+A_{12} & = & A_{13}=\dfrac{E\nu}{\left(1+\nu\right)\left(1-2\nu\right)}\\
+A_{14} & = & \dfrac{E}{2\left(1+\nu\right)}
+\end{eqnarray*}
 
+\end_inset
+
+ここで
+\begin_inset Formula $E$
+\end_inset
+
+はヤング係数
+\begin_inset Formula $\nu$
+\end_inset
+
+はポアソン比です。
 \end_layout
 
 \begin_layout Subsection
@@ -359,7 +377,6 @@ D
 結論
 \end_layout
 
->>>>>>> 9476b58dc914063e7e641b1d966e534f2acad5b8
 \begin_layout Section
 変位入力による横方向に等方な成層半無限地盤の静的応答
 \end_layout
