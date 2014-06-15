@@ -819,12 +819,44 @@ f_{j}\left(r,\theta,z\right)=\dfrac{\delta\left(r\right)\delta\left(\theta\right
 により打ち消されます。そのため、これらの新しい伝搬行列を用いることにより、伝搬マトリックスは次式のように表せます。
 \begin_inset Formula 
 \[
-\begin{bmatrix}E^{I}\left(z\right)\end{bmatrix}=\exp\left\{ -\lambda d_{zh}\right\} \left[b_{k}^{I}\left(z-z_{k-1}\right)\right]\left[b^{I}\right]
+\begin{bmatrix}E^{I}\left(z\right)\end{bmatrix}=\exp\left\{ -\lambda d_{zh}\right\} \left[b_{k}^{I}\left(z-z_{k-1}\right)\right]\left[b_{k+1}^{I}\right]\cdots\left[b_{p-1}^{I}\right]\left[E^{I}\left(H\right)\right]
 \]
 
 \end_inset
 
 
+\begin_inset Formula 
+\[
+\left[E^{I\hspace{-0.1em}I}\left(z\right)\right]=\exp\left\{ -\lambda d_{zh}\right\} \left[b^{I\hspace{-0.1em}I}\left(z-z_{k-1}\right)\right]\left[b_{k+1}^{I\hspace{-0.1em}I}\right]\cdots\left[b_{p-1}^{I\hspace{-0.1em}I}\right]\left[E^{I\hspace{-0.1em}I}\left(H\right)\right]
+\]
+
+\end_inset
+
+ここで、
+\begin_inset Formula $\left[E^{I}\left(H\right)\right]$
+\end_inset
+
+と
+\begin_inset Formula $\left[E^{I\hspace{-0.1em}I}\left(H\right)\right]$
+\end_inset
+
+は
+\begin_inset Formula $z=H$
+\end_inset
+
+における伝搬係数の列ベクトルです。また、
+\begin_inset Formula $d_{zh}$
+\end_inset
+
+は観測位置
+\begin_inset Formula $z$
+\end_inset
+
+と加力位置
+\begin_inset Formula $h$
+\end_inset
+
+の関係を示す係数です。
 \end_layout
 
 \begin_layout Subsection
