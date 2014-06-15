@@ -122,7 +122,23 @@ A_{14} & = & \dfrac{E}{2\left(1+\nu\right)}
 \begin_inset Formula $\nu$
 \end_inset
 
-はポアソン比です。
+はポアソン比です。また
+\begin_inset Formula $x$
+\end_inset
+
+を
+\begin_inset Formula $r$
+\end_inset
+
+、
+\begin_inset Formula $y$
+\end_inset
+
+を
+\begin_inset Formula $\theta$
+\end_inset
+
+で置き換えることにより円筒座標系のフックの法則を得ることができます。
 \end_layout
 
 \begin_layout Subsection
