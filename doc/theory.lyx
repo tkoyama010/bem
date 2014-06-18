@@ -158,11 +158,17 @@ A_{14} & = & \dfrac{E}{2\left(1+\nu\right)}
 
 \end_inset
 
-ここで、
+以下の式展開においては特別な場合を除いて、添字と積分表示は省略します。
+\begin_inset Formula $\left[T\right]$
+\end_inset
+
+の式を上式と比較すると、以下の式が得られます。
 \begin_inset Formula 
-\[
-A_{66}=\dfrac{A_{11}-A_{12}}{2}
-\]
+\begin{eqnarray*}
+\left(T_{M}\dfrac{\partial}{\partial x}+T_{N}\dfrac{\partial}{\partial y}\right)S & = & \left[A_{44}\left(U_{L}\dfrac{\partial}{\partial x}+\dfrac{dU_{M}}{dz}\dfrac{\partial}{\partial x}+\dfrac{dU_{N}}{dz}\dfrac{\partial}{\partial y}\right)\right]S\\
+\left(T_{M}\dfrac{\partial}{\partial y}-T_{N}\dfrac{\partial}{\partial x}\right)S & = & \left[A_{44}\left(U_{L}\dfrac{\partial}{\partial y}+\dfrac{dU_{M}}{dz}\dfrac{\partial}{\partial y}-\dfrac{dU_{N}}{dz}\dfrac{\partial}{\partial x}\right)\right]S\\
+T_{L}S & = & \left[A_{13}U_{M}\left(\dfrac{\partial^{2}}{\partial x^{2}}+\dfrac{\partial^{2}}{\partial y^{2}}\right)+A_{33}\dfrac{dU_{L}}{dz}\right]S
+\end{eqnarray*}
 
 \end_inset
 
@@ -376,14 +382,7 @@ a_{11}=a_{33}=
  &  & \left.-U_{M}\left(A_{11}-A_{12}\right)\Delta_{2}\right]S\left(r,\theta;\lambda,m\right)\lambda d\lambda\\
 \sigma_{r\theta}\left(r,\theta,z\right) & = & A_{66}\sum_{m}\int_{0}^{+\infty}\left[U_{N}\left(\lambda^{2}+2\Delta_{2}\right)+2U_{M}\Delta_{1}\right]S\left(r,\theta;\lambda,m\right)\lambda d\lambda\\
 \sigma_{\theta\theta}\left(r,\theta,z\right) & = & \sum_{m}\int_{0}^{+\infty}\left[T_{L}\dfrac{A_{13}}{A_{33}}-U_{N}\left(A_{11}-A_{12}\right)\Delta_{1}+\right.\\
- &  & \left.U_{M}\lambda^{2}\dfrac{A_{13}^{2}-A_{12}A_{33}}{A_{33}}+U_{M}\left(A_{11}-A_{12}\right)\Delta_{2}\right]S\left(r,\theta;\lambda,m\right)\lambda d\lambda
-\end{eqnarray*}
-
-\end_inset
-
-
-\begin_inset Formula 
-\begin{eqnarray*}
+ &  & \left.U_{M}\lambda^{2}\dfrac{A_{13}^{2}-A_{12}A_{33}}{A_{33}}+U_{M}\left(A_{11}-A_{12}\right)\Delta_{2}\right]S\left(r,\theta;\lambda,m\right)\lambda d\lambda\\
 \Delta_{1} & = & \dfrac{1}{r}\dfrac{\partial^{2}}{\partial r\partial\theta}-\dfrac{1}{r^{2}}\dfrac{\partial}{\partial\theta}\\
 \Delta_{2} & = & \dfrac{1}{r^{2}}\dfrac{\partial^{2}}{\partial\theta^{2}}+\dfrac{1}{r}\dfrac{\partial}{\partial r}
 \end{eqnarray*}
@@ -531,31 +530,11 @@ a_{11}=a_{33}=
 
 は層の厚さです。ベクトル関数の円筒座標系における式は次のようになります。
 \begin_inset Formula 
-\[
-\mathbf{L}\left(r,\theta;\lambda,m\right)=\mathbf{e}_{z}S\left(r,\theta;\lambda,m\right)
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-\mathbf{M}\left(r,\theta;\lambda,m\right)=\left(\mathbf{e}_{r}\dfrac{\partial}{\partial\mathbf{r}}+\mathbf{e}_{\theta}\dfrac{\partial}{\mathbf{r}\partial\theta}\right)S\left(r,\theta;\lambda,m\right)
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-\mathbf{N}\left(r,\theta;\lambda,m\right)=\left(\mathbf{e}_{r}\dfrac{\partial}{\mathbf{r}\partial\theta}-\mathbf{e}_{\theta}\dfrac{\partial}{\partial\mathbf{r}}\right)S\left(r,\theta;\lambda,m\right)
-\]
+\begin{eqnarray*}
+\mathbf{L}\left(r,\theta;\lambda,m\right) & = & \mathbf{e}_{z}S\left(r,\theta;\lambda,m\right)\\
+\mathbf{M}\left(r,\theta;\lambda,m\right) & = & \left(\mathbf{e}_{r}\dfrac{\partial}{\partial\mathbf{r}}+\mathbf{e}_{\theta}\dfrac{\partial}{\mathbf{r}\partial\theta}\right)S\left(r,\theta;\lambda,m\right)\\
+\mathbf{N}\left(r,\theta;\lambda,m\right) & = & \left(\mathbf{e}_{r}\dfrac{\partial}{\mathbf{r}\partial\theta}-\mathbf{e}_{\theta}\dfrac{\partial}{\partial\mathbf{r}}\right)S\left(r,\theta;\lambda,m\right)
+\end{eqnarray*}
 
 \end_inset
 
@@ -585,27 +564,14 @@ S\left(r,\theta;\lambda,m\right)=\dfrac{1}{\sqrt{2\pi}}J_{m}\left(\lambda r\righ
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
-\mathbf{u}\left(r,\theta,z\right)=\sum_{m}\int_{0}^{+\infty}\left[U_{L}\left(z\right)\mathbf{L}\left(r,\theta\right)+U_{M}\left(z\right)\mathbf{M}\left(r,\theta\right)+U_{N}\left(z\right)\mathbf{N}\left(r,\theta\right)\right]\lambda d\lambda
-\]
+\begin{eqnarray*}
+\mathbf{u}\left(r,\theta,z\right) & = & \sum_{m}\int_{0}^{+\infty}\left[U_{L}\left(z\right)\mathbf{L}\left(r,\theta\right)+U_{M}\left(z\right)\mathbf{M}\left(r,\theta\right)+U_{N}\left(z\right)\mathbf{N}\left(r,\theta\right)\right]\lambda d\lambda\\
+\mathbf{T}\left(r,\theta,z\right) & = & \sigma_{rz}\mathbf{e}_{r}+\sigma_{\theta z}\mathbf{e}_{\theta}+\sigma_{zz}\mathbf{e}_{z}\\
+ & = & \sum_{m}\int_{0}^{+\infty}\left[T_{L}\left(z\right)\mathbf{L}\left(r,\theta\right)+T_{M}\left(z\right)\mathbf{M}\left(r,\theta\right)+T_{N}\left(z\right)\mathbf{N}\left(r,\theta\right)\right]\lambda d\lambda
+\end{eqnarray*}
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-\mathbf{T}\left(r,\theta,z\right)=\sigma_{rz}\mathbf{e}_{r}+\sigma_{\theta z}\mathbf{e}_{\theta}+\sigma_{zz}\mathbf{e}_{z}=\sum_{m}\int_{0}^{+\infty}\left[T_{L}\left(z\right)\mathbf{L}\left(r,\theta\right)+T_{M}\left(z\right)\mathbf{M}\left(r,\theta\right)+T_{N}\left(z\right)\mathbf{N}\left(r,\theta\right)\right]\lambda d\lambda
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 さらに、釣り合い方程式と構成則に式を代入することで、連立微分方程式の2つの独立した式が得られます。 これら二つの式の解は以下の簡単な形で表すことができます。
 \end_layout
 
@@ -825,7 +791,7 @@ f_{j}\left(r,\theta,z\right)=\dfrac{\delta\left(r\right)\delta\left(\theta\right
 を導入します。
 \begin_inset Formula 
 \[
-\left[a_{k}^{I}\left(z_{k}-z_{k-1}\right)\right]=\left[b_{k}^{I}\left(z_{k}-z_{k-1}\right)\right]exp\left\{ \lambda\left(z_{k}-z_{k-1}\right)\right\} 
+\left[a_{k}^{I}\left(z_{k}-z_{k-1}\right)\right]=\left[b_{k}^{I}\left(z_{k}-z_{k-1}\right)\right]\exp\left\{ \lambda\left(z_{k}-z_{k-1}\right)\right\} 
 \]
 
 \end_inset
@@ -836,7 +802,7 @@ f_{j}\left(r,\theta,z\right)=\dfrac{\delta\left(r\right)\delta\left(\theta\right
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\left[a_{k}^{II}\left(z_{k}-z_{k-1}\right)\right]=\left[b_{k}^{II}\left(z_{k}-z_{k-1}\right)\right]exp\left\{ \lambda\left(z_{k}-z_{k-1}\right)\right\} 
+\left[a_{k}^{II}\left(z_{k}-z_{k-1}\right)\right]=\left[b_{k}^{II}\left(z_{k}-z_{k-1}\right)\right]\exp\left\{ \lambda\left(z_{k}-z_{k-1}\right)\right\} 
 \]
 
 \end_inset
@@ -861,12 +827,44 @@ f_{j}\left(r,\theta,z\right)=\dfrac{\delta\left(r\right)\delta\left(\theta\right
 により打ち消されます。そのため、これらの新しい伝搬行列を用いることにより、伝搬マトリックスは次式のように表せます。
 \begin_inset Formula 
 \[
-\begin{bmatrix}E^{I}\left(z\right)\end{bmatrix}=\exp\left\{ -\lambda d_{zh}\right\} \left[b_{k}^{I}\left(z-z_{k-1}\right)\right]\left[b^{I}\right]
+\begin{bmatrix}E^{I}\left(z\right)\end{bmatrix}=\exp\left\{ -\lambda d_{zh}\right\} \left[b_{k}^{I}\left(z-z_{k-1}\right)\right]\left[b_{k+1}^{I}\right]\cdots\left[b_{p-1}^{I}\right]\left[E^{I}\left(H\right)\right]
 \]
 
 \end_inset
 
 
+\begin_inset Formula 
+\[
+\left[E^{I\hspace{-0.1em}I}\left(z\right)\right]=\exp\left\{ -\lambda d_{zh}\right\} \left[b^{I\hspace{-0.1em}I}\left(z-z_{k-1}\right)\right]\left[b_{k+1}^{I\hspace{-0.1em}I}\right]\cdots\left[b_{p-1}^{I\hspace{-0.1em}I}\right]\left[E^{I\hspace{-0.1em}I}\left(H\right)\right]
+\]
+
+\end_inset
+
+ここで、
+\begin_inset Formula $\left[E^{I}\left(H\right)\right]$
+\end_inset
+
+と
+\begin_inset Formula $\left[E^{I\hspace{-0.1em}I}\left(H\right)\right]$
+\end_inset
+
+は
+\begin_inset Formula $z=H$
+\end_inset
+
+における伝搬係数の列ベクトルです。また、
+\begin_inset Formula $d_{zh}$
+\end_inset
+
+は観測位置
+\begin_inset Formula $z$
+\end_inset
+
+と加力位置
+\begin_inset Formula $h$
+\end_inset
+
+の関係を示す係数です。なお本式は観測点が加力点よりも下、又は加力点である場合も適用可能です。
 \end_layout
 
 \begin_layout Subsection
