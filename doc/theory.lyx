@@ -359,6 +359,7 @@ D
 結論
 \end_layout
 
+>>>>>>> 9476b58dc914063e7e641b1d966e534f2acad5b8
 \begin_layout Section
 変位入力による横方向に等方な成層半無限地盤の静的応答
 \end_layout
@@ -487,7 +488,17 @@ D
 \begin_inset Formula $H$
 \end_inset
 
-は層の厚さです。 ベクトル関数の円筒座標系における式は次のようになります。
+は層の厚さです。円筒座標系での弾性体の運動方程式(Navierの式)は
+\begin_inset Formula 
+\begin{eqnarray*}
+\left(\lambda+2\mu\right)\dfrac{\partial\Delta}{\partial r}-\dfrac{2\mu}{r}\dfrac{\partial\omega_{z}}{\partial\theta}+2\mu\dfrac{\partial\omega_{\theta}}{\partial z}+f_{r} & = & \rho\dfrac{\partial^{2}u_{r}}{\partial t^{2}}\\
+\left(\lambda+2\mu\right)\dfrac{1}{r}\dfrac{\partial\Delta}{\partial\theta}-2\mu\dfrac{\partial\omega_{r}}{\partial z}+2\mu\dfrac{\partial\omega_{z}}{\partial r}+f_{\theta} & = & \rho\dfrac{\partial^{2}u_{\theta}}{\partial t^{2}}\\
+\left(\lambda+2\mu\right)\dfrac{\partial\Delta}{\partial z}-\dfrac{2\mu}{r}\dfrac{\partial}{\partial r}\left(r\omega_{\theta}\right)+\dfrac{2\mu}{r}\dfrac{\partial\omega_{r}}{\partial\theta}+f_{z} & = & \rho\dfrac{\partial^{2}u_{z}}{\partial t^{2}}
+\end{eqnarray*}
+
+\end_inset
+
+と表されます。 ベクトル関数の円筒座標系における式は次のようになります。
 \begin_inset Formula 
 \begin{eqnarray*}
 \mathbf{L}\left(r,\theta;\lambda,m\right) & = & \mathbf{e}_{z}S\left(r,\theta;\lambda,m\right)\\
