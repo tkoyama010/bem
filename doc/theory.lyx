@@ -124,14 +124,6 @@ A_{66}=\dfrac{A_{11}-A_{12}}{2}
 
 \end_inset
 
-ここで、
-\begin_inset Formula 
-\[
-A_{66}=\dfrac{A_{11}-A_{12}}{2}
-\]
-
-\end_inset
-
 タイプⅠに対しては、
 \begin_inset Formula 
 \begin{eqnarray*}
