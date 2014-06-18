@@ -124,6 +124,20 @@ A_{66}=\dfrac{A_{11}-A_{12}}{2}
 
 \end_inset
 
+以下の式展開においては特別な場合を除いて、添字と積分表示は省略します。
+\begin_inset Formula $\left[T\right]$
+\end_inset
+
+の式を上式と比較すると、以下の式が得られます。
+\begin_inset Formula 
+\begin{eqnarray*}
+\left(T_{M}\dfrac{\partial}{\partial x}+T_{N}\dfrac{\partial}{\partial y}\right)S & = & \left[A_{44}\left(U_{L}\dfrac{\partial}{\partial x}+\dfrac{dU_{M}}{dz}\dfrac{\partial}{\partial x}+\dfrac{dU_{N}}{dz}\dfrac{\partial}{\partial y}\right)\right]S\\
+\left(T_{M}\dfrac{\partial}{\partial y}-T_{N}\dfrac{\partial}{\partial x}\right)S & = & \left[A_{44}\left(U_{L}\dfrac{\partial}{\partial y}+\dfrac{dU_{M}}{dz}\dfrac{\partial}{\partial y}-\dfrac{dU_{N}}{dz}\dfrac{\partial}{\partial x}\right)\right]S\\
+T_{L}S & = & \left[A_{13}U_{M}\left(\dfrac{\partial^{2}}{\partial x^{2}}+\dfrac{\partial^{2}}{\partial y^{2}}\right)+A_{33}\dfrac{dU_{L}}{dz}\right]S
+\end{eqnarray*}
+
+\end_inset
+
 タイプⅠに対しては、
 \begin_inset Formula 
 \begin{eqnarray*}
