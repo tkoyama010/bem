@@ -823,7 +823,7 @@ f_{j}\left(r,\theta,z\right)=\dfrac{\delta\left(r\right)\delta\left(\theta\right
 \begin_inset Formula $h$
 \end_inset
 
-の関係を示す係数です。
+の関係を示す係数です。なお本式は観測点が加力点よりも下、又は加力点である場合も適用可能です。
 \end_layout
 
 \begin_layout Subsection
