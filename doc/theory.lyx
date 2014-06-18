@@ -350,7 +350,15 @@ D
 \begin_inset Formula $k$
 \end_inset
 
-層の伝搬マトリックスです。要素については付録を参照してください。付録から分かるように、固有値が
+層の伝搬マトリックスです。要素は以下のようになります。
+\begin_inset Formula 
+\[
+a_{11}=a_{33}=
+\]
+
+\end_inset
+
+固有値が
 \begin_inset Formula $1.0$
 \end_inset
 
