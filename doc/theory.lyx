@@ -334,14 +334,7 @@ D
  &  & \left.-U_{M}\left(A_{11}-A_{12}\right)\Delta_{2}\right]S\left(r,\theta;\lambda,m\right)\lambda d\lambda\\
 \sigma_{r\theta}\left(r,\theta,z\right) & = & A_{66}\sum_{m}\int_{0}^{+\infty}\left[U_{N}\left(\lambda^{2}+2\Delta_{2}\right)+2U_{M}\Delta_{1}\right]S\left(r,\theta;\lambda,m\right)\lambda d\lambda\\
 \sigma_{\theta\theta}\left(r,\theta,z\right) & = & \sum_{m}\int_{0}^{+\infty}\left[T_{L}\dfrac{A_{13}}{A_{33}}-U_{N}\left(A_{11}-A_{12}\right)\Delta_{1}+\right.\\
- &  & \left.U_{M}\lambda^{2}\dfrac{A_{13}^{2}-A_{12}A_{33}}{A_{33}}+U_{M}\left(A_{11}-A_{12}\right)\Delta_{2}\right]S\left(r,\theta;\lambda,m\right)\lambda d\lambda
-\end{eqnarray*}
-
-\end_inset
-
-
-\begin_inset Formula 
-\begin{eqnarray*}
+ &  & \left.U_{M}\lambda^{2}\dfrac{A_{13}^{2}-A_{12}A_{33}}{A_{33}}+U_{M}\left(A_{11}-A_{12}\right)\Delta_{2}\right]S\left(r,\theta;\lambda,m\right)\lambda d\lambda\\
 \Delta_{1} & = & \dfrac{1}{r}\dfrac{\partial^{2}}{\partial r\partial\theta}-\dfrac{1}{r^{2}}\dfrac{\partial}{\partial\theta}\\
 \Delta_{2} & = & \dfrac{1}{r^{2}}\dfrac{\partial^{2}}{\partial\theta^{2}}+\dfrac{1}{r}\dfrac{\partial}{\partial r}
 \end{eqnarray*}
@@ -359,7 +352,6 @@ D
 結論
 \end_layout
 
->>>>>>> 9476b58dc914063e7e641b1d966e534f2acad5b8
 \begin_layout Section
 変位入力による横方向に等方な成層半無限地盤の静的応答
 \end_layout
