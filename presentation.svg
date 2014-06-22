@@ -92,4 +92,85 @@
          x="462.85715"
          y="919.50507">小山哲央</tspan></text>
   </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="微分方程式の解法">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="91.428574"
+       y="108.3802"
+       id="text3032"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3034"
+         x="91.428574"
+         y="108.3802" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="123.24219"
+       y="641.16479"
+       id="text3036"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3038"
+         x="123.24219"
+         y="641.16479">差分法</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="422.59766"
+       y="640.96948"
+       id="text3040"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3042"
+         x="422.59766"
+         y="640.96948">波数積分法</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="797.67578"
+       y="641.26245"
+       id="text3044"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3046"
+         x="797.67578"
+         y="641.26245">薄層法</tspan></text>
+    <rect
+       style="fill:#d4aa00"
+       id="rect3080"
+       width="250"
+       height="250"
+       x="60"
+       y="294.09448" />
+    <rect
+       style="fill:#d4aa00"
+       id="rect3080-0"
+       width="250"
+       height="250"
+       x="400"
+       y="294.09348" />
+    <rect
+       style="fill:#d4aa00"
+       id="rect3080-5"
+       width="250"
+       height="250"
+       x="725"
+       y="294.09448" />
+    <text
+       xml:space="preserve"
+       style="font-size:72px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="194.65625"
+       y="138.32886"
+       id="text3122"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3124"
+         x="194.65625"
+         y="138.32886">主な微分方程式の解法</tspan></text>
+  </g>
 </svg>
