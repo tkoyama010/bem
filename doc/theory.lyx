@@ -104,7 +104,41 @@ A_{66}=\dfrac{A_{11}-A_{12}}{2}
 
 \end_inset
 
+さらに各係数は以下のように表されます。
+\begin_inset Formula 
+\begin{eqnarray*}
+A_{11} & = & A_{33}=\dfrac{E\left(1-\nu\right)}{\left(1+\nu\right)\left(1-2\nu\right)}\\
+A_{12} & = & A_{13}=\dfrac{E\nu}{\left(1+\nu\right)\left(1-2\nu\right)}\\
+A_{14} & = & \dfrac{E}{2\left(1+\nu\right)}
+\end{eqnarray*}
 
+\end_inset
+
+ここで
+\begin_inset Formula $E$
+\end_inset
+
+はヤング係数
+\begin_inset Formula $\nu$
+\end_inset
+
+はポアソン比です。また
+\begin_inset Formula $x$
+\end_inset
+
+を
+\begin_inset Formula $r$
+\end_inset
+
+、
+\begin_inset Formula $y$
+\end_inset
+
+を
+\begin_inset Formula $\theta$
+\end_inset
+
+で置き換えることにより円筒座標系のフックの法則を得ることができます。
 \end_layout
 
 \begin_layout Subsection
@@ -322,7 +356,15 @@ D
 \begin_inset Formula $k$
 \end_inset
 
-層の伝搬マトリックスです。要素については付録を参照してください。付録から分かるように、固有値が
+層の伝搬マトリックスです。要素は以下のようになります。
+\begin_inset Formula 
+\[
+a_{11}=a_{33}=
+\]
+
+\end_inset
+
+固有値が
 \begin_inset Formula $1.0$
 \end_inset
 
@@ -352,6 +394,14 @@ D
 
 \begin_layout Subsection
 数値計算例
+\end_layout
+
+\begin_layout Standard
+以上の式展開を確認するために、数値計算例を紹介します。モデルは2横方向に等方性で均一な層から構成されており、
+\begin_inset Formula $z=z_{2}$
+\end_inset
+
+における底面境界は剛とします。
 \end_layout
 
 \begin_layout Subsection
@@ -486,17 +536,7 @@ D
 \begin_inset Formula $H$
 \end_inset
 
-は層の厚さです。円筒座標系での弾性体の運動方程式(Navierの式)は
-\begin_inset Formula 
-\begin{eqnarray*}
-\left(\lambda+2\mu\right)\dfrac{\partial\Delta}{\partial r}-\dfrac{2\mu}{r}\dfrac{\partial\omega_{z}}{\partial\theta}+2\mu\dfrac{\partial\omega_{\theta}}{\partial z}+f_{r} & = & \rho\dfrac{\partial^{2}u_{r}}{\partial t^{2}}\\
-\left(\lambda+2\mu\right)\dfrac{1}{r}\dfrac{\partial\Delta}{\partial\theta}-2\mu\dfrac{\partial\omega_{r}}{\partial z}+2\mu\dfrac{\partial\omega_{z}}{\partial r}+f_{\theta} & = & \rho\dfrac{\partial^{2}u_{\theta}}{\partial t^{2}}\\
-\left(\lambda+2\mu\right)\dfrac{\partial\Delta}{\partial z}-\dfrac{2\mu}{r}\dfrac{\partial}{\partial r}\left(r\omega_{\theta}\right)+\dfrac{2\mu}{r}\dfrac{\partial\omega_{r}}{\partial\theta}+f_{z} & = & \rho\dfrac{\partial^{2}u_{z}}{\partial t^{2}}
-\end{eqnarray*}
-
-\end_inset
-
-と表されます。 ベクトル関数の円筒座標系における式は次のようになります。
+は層の厚さです。ベクトル関数の円筒座標系における式は次のようになります。
 \begin_inset Formula 
 \begin{eqnarray*}
 \mathbf{L}\left(r,\theta;\lambda,m\right) & = & \mathbf{e}_{z}S\left(r,\theta;\lambda,m\right)\\
@@ -840,8 +880,8 @@ f_{j}\left(r,\theta,z\right)=\dfrac{\delta\left(r\right)\delta\left(\theta\right
 \end_layout
 
 \begin_layout Standard
-本論文では、Pattersonにより開発され、ChaveによりFORTRANプログラムに実装されたハンケル変換のガウス積分プログラムを、成層半無限地盤におけるグ
-リーン関数の計算のために修正しました。
+本論文では、Pattersonにより開発され、ChaveによりFORTRANプログラムに実装されたハンケル変換のガウス積分プログラムを、成層半
+ 無限地盤におけるグリーン関数の計算のために修正しました。
 \begin_inset Formula 
 \[
 \int_{0}^{+\infty}f\left(\lambda,z\right)J_{m}\left(\lambda r\right)d\lambda=\sum_{n=1}^{N}\int_{\lambda_{n}}^{\lambda_{n+1}}f\left(\lambda,z\right)J_{m}\left(\lambda r\right)d\lambda
@@ -854,6 +894,11 @@ f_{j}\left(r,\theta,z\right)=\dfrac{\delta\left(r\right)\delta\left(\theta\right
 
 \begin_layout Subsection
 数値計算結果
+\end_layout
+
+\begin_layout Standard
+以上の式展開を確認するため、いくつかの数値計算例を紹介します。これらの例から、成層地盤における異なる物性値と異方性の影響についても示します。議論は無次元で行いま
+す。
 \end_layout
 
 \begin_layout Paragraph
