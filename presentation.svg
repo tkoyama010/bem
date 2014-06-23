@@ -27,12 +27,12 @@
      inkscape:cx="633.41447"
      inkscape:cy="357.14615"
      inkscape:document-units="px"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer2"
      showgrid="false"
-     inkscape:window-width="1440"
-     inkscape:window-height="838"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-width="1838"
+     inkscape:window-height="1058"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -115,7 +115,8 @@
          sodipodi:role="line"
          x="500"
          y="150.03532"
-         id="tspan3052">Navier's Equations</tspan></text>
+         id="tspan3052"
+         style="-inkscape-font-specification:Sans;font-family:Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:40px;text-anchor:middle;text-align:center;writing-mode:lr;line-height:125%">Navier's Equations</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
