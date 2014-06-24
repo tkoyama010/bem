@@ -116,7 +116,6 @@
          x="500"
          y="150.03532"
          id="tspan3052"
-<<<<<<< HEAD
          style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans">Hooke's Law</tspan></text>
     <g
        id="g3551"
@@ -203,9 +202,6 @@
            style="fill:#000000;fill-rule:nonzero;stroke-width:0"
            d="m 355.8,544.77 h -0.75 c -0.15,-0.88 -0.35,-2.19 -0.66,-2.63 -0.2,-0.24 -2.18,-0.24 -2.83,-0.24 h -5.38 l 3.17,3.06 c 4.66,4.1 6.45,5.7 6.45,8.67 0,3.39 -2.68,5.77 -6.32,5.77 -3.37,0 -5.57,-2.72 -5.57,-5.35 0,-1.65 1.47,-1.65 1.56,-1.65 0.5,0 1.53,0.35 1.53,1.57 0,0.76 -0.53,1.53 -1.56,1.53 -0.24,0 -0.3,0 -0.39,0 0.69,1.91 2.31,2.99 4.04,2.99 2.73,0 4.02,-2.41 4.02,-4.85 0,-2.38 -1.5,-4.73 -3.14,-6.57 l -5.73,-6.37 c -0.33,-0.32 -0.33,-0.39 -0.33,-1.1 h 11.06 z"
            inkscape:connector-curvature="0" /></g>    </g>
-=======
-         style="-inkscape-font-specification:Sans;font-family:Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:40px;text-anchor:middle;text-align:center;writing-mode:lr;line-height:125%">Navier's Equations</tspan></text>
->>>>>>> parent of 4caa24d... add equation
   </g>
   <g
      inkscape:groupmode="layer"
