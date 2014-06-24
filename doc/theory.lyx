@@ -921,5 +921,42 @@ f_{j}\left(r,\theta,z\right)=\dfrac{\delta\left(r\right)\delta\left(\theta\right
 結論
 \end_layout
 
+\begin_layout Part*
+付録A
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+c\left(x\right) & = & \dfrac{A_{11}+x^{2}A_{13}}{x^{2}\left(A_{11}A_{33}-A_{13}^{2}\right)}\\
+d\left(x\right) & = & \dfrac{A_{13}+x^{2}A_{33}}{x\left(A_{11}A_{33}-A_{13}^{2}\right)}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+付録B
+\end_layout
+
+\begin_layout Standard
+層マトリックス
+\begin_inset Formula $\left[a_{k}\right]$
+\end_inset
+
+の要素は以下のようになります。
+\begin_inset Formula 
+\begin{eqnarray*}
+a_{11} & = & a_{33}=\left[\dfrac{g\left(x_{1}\right)c\left(x_{1}\right)}{x_{1}}\right]\cosh y_{1}+\left[\dfrac{g\left(x_{2}\right)c\left(x_{2}\right)}{x_{2}}\right]\cosh y_{2}\\
+a_{12} & = & -a_{43}=
+\end{eqnarray*}
+
+\end_inset
+
+ただし、+
+\end_layout
+
 \end_body
 \end_document
