@@ -139,6 +139,16 @@ A_{14} & = & \dfrac{E}{2\left(1+\nu\right)}
 \end_inset
 
 で置き換えることにより円筒座標系のフックの法則を得ることができます。
+\begin_inset Formula 
+\begin{eqnarray*}
+L\left(x,y;\alpha,\beta\right) & = & i_{z}S\left(x,y;\alpha,\beta\right)\\
+M\left(x,y;\alpha,\beta\right) & = & grad\: S=i_{x}\dfrac{\partial S}{\partial x}+i_{y}\dfrac{\partial S}{\partial y}\\
+N\left(x,y;\alpha,\beta\right) & = & curl\: i_{z}\: S=i_{x}\dfrac{\partial S}{\partial y}-i_{y}\dfrac{\partial S}{\partial x}
+\end{eqnarray*}
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
